@@ -2,15 +2,14 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='mt-5 container mx-auto pb-5'>
-            <div className='flex items-center'>
-                <div className='w-2/5'>
-                    <div style={{ transform: 'rotate(90deg)', width: '54%' }}>
-                        <span className='bg-[#28E3DA] text-black px-2 py-1 rounded rotate text-black font-bold' >About Me</span>
+        <div className='mt-16 container mx-auto pb-5'>
+            <div>
+                <h2 className='text-4xl'>About</h2>
+                <div className='flex mt-5 gap-2'>
+                    <div className='mt-2'>
+                        <div style={{width: '60px', height: '5px', backgroundColor: '#63E6BE'}}></div>
                     </div>
-                </div>
-                <div>
-                    <p className='text-4xl leading-relaxed font-bold'>I have startup design agency called “WhiteFrame creative” where I primarily teach Product Design & development. As im working more than 7 years in this field i gathered some skill like research</p>
+                    <p className='text-3xl' style={{textDecoration: 'capitalize'}}>Highly skilled <span className='text-[#63E6BE]'>MERN-STACK</span> developer with 3 years of experience in developing responsive web applications. Passionate about leveraging expertise in <span className="text-[#63E6BE]">HTML, CSS, JavaScript, React, Node.js, and MongoDB</span> to drive innovative projects. Experienced mentor specializing in front-end web development, with a focus on HTML, CSS, CSS frameworks, JavaScript, and React.js</p>
                 </div>
             </div>
         </div>

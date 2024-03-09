@@ -10,7 +10,7 @@ const ServiceProvide = () => {
             <div className='mt-5'>
                 <div className="grid grid-cols-3">
                     <div>
-                        <div className='text-center bg-blue-400 py-10'>
+                        <div className='text-center bg-[#3a4047] py-10'>
                             <i style={{fontSize: 60}} className="fas fa-solid fa-earth-americas bg-white text-orange-700 p-2 rounded-lg"></i>
                             <h3 className='text-2xl mt-3 mb-3 font-bold'>Global Style guide</h3>
                             <p className='text-sm w-2/3 m-auto'>Consistent design with the text and color style.</p>
@@ -24,7 +24,7 @@ const ServiceProvide = () => {
                         </div>
                     </div>
                     <div>
-                        <div className='text-center bg-blue-400 py-10 '>
+                        <div className='text-center bg-[#3a4047] py-10 '>
                             <i style={{fontSize: 60}} className="fas fa-duotone fa-layer-group bg-white text-orange-700 p-2 rounded-lg"></i>
                             <h3 className='text-2xl mt-3 mb-3 font-bold'>Organized Layer</h3>
                             <p className='text-sm w-2/3 m-auto'>Consistent design with the text and color style.</p>
@@ -39,7 +39,7 @@ const ServiceProvide = () => {
                         </div>
                     </div>
                     <div>
-                        <div className='text-center bg-blue-400 py-10 '>
+                        <div className='text-center bg-[#3a4047] py-10 '>
                             <i style={{fontSize: 60}} className="fas fa-regular fa-lightbulb bg-white text-orange-700 p-2 rounded-lg"></i>
                             <i class=""></i>
                             <h3 className='text-2xl mt-3 mb-3 font-bold'>Light Mood</h3>
