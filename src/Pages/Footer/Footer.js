@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='container mx-auto mt-16 pb-5'>
+        <div id='contact' className='container mx-auto mt-16 pb-5'>
             <div className='text-center'>
                 <h1 className='text-6xl font-bold'>Let's work together!</h1>
                 <p className='mt-10 mb-10 text-xl'>Available to project from july 2023 & beyond</p>

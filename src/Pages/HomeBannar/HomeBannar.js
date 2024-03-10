@@ -12,8 +12,12 @@ const HomeBannar = () => {
                     </div>
                     <div>
                         <ul className='flex gap-3 items-center'>
-                            <li>About</li>
-                            <li>Contact</li>
+                            <li><a href="#about">About</a></li>
+                            {/* <li><a href="#project">Project</a></li>
+                            <li><a href="#service">Service</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#skills">Skills</a></li> */}
+                            <li><a href="#contact">Contact</a></li>
                             <li className='bg-gray-400 p-2 rounded'>
                                 <a href="">Book A Call</a>
                             </li>
@@ -60,13 +64,13 @@ const HomeBannar = () => {
                         </div>
                         <div className='w-8/12'>
                             <div className='flex justify-around'>
-                                <i class="fa-brands fa-html5 fa-beat-fade" style={{ color: '#63E6BE', fontSize: '60px' }}></i>
-                                <i class="fa-brands fa-css3-alt fa-beat-fade"  style={{ color: '#63E6BE', fontSize: '60px' }}></i>
-                                <i class="fa-brands fa-js fa-beat-fade" style={{ color: '#63E6BE', fontSize: '60px' }}></i>
-                                <i class="fa-brands fa-react fa-beat" style={{color: '#63E6BE', fontSize: '60px'}}></i>
-                                <i class="fa-brands fa-node fa-beat-fade" style={{color: '#63E6BE', fontSize: '60px'}}></i>
-                                <i class="fa-solid fa-database fa-beat-fade" style={{color: '#63E6BE', fontSize: '60px'}}></i>
-                                <i class="fa-brands fa-vuejs fa-beat-fade" style={{color: '#63E6BE', fontSize: '60px'}}></i>
+                                <i class="fa-brands fa-html5 fa-beat" style={{ color: '#63E6BE', fontSize: '60px' }}></i>
+                                <i class="fa-brands fa-css3-alt fa-beat" style={{ color: '#63E6BE', fontSize: '60px' }}></i>
+                                <i class="fa-brands fa-js fa-beat" style={{ color: '#63E6BE', fontSize: '60px' }}></i>
+                                <i class="fa-brands fa-react fa-beat" style={{ color: '#63E6BE', fontSize: '60px' }}></i>
+                                <i class="fa-brands fa-node fa-beat" style={{ color: '#63E6BE', fontSize: '60px' }}></i>
+                                <i class="fa-solid fa-database fa-beat" style={{ color: '#63E6BE', fontSize: '60px' }}></i>
+                                <i class="fa-brands fa-vuejs fa-beat" style={{ color: '#63E6BE', fontSize: '60px' }}></i>
                             </div>
                         </div>
                     </div>

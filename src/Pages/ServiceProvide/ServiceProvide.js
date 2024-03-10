@@ -2,7 +2,7 @@ import React from 'react'
 
 const ServiceProvide = () => {
     return (
-        <div className='container mx-auto pt-5 pb-5'>
+        <div id='service' className='container mx-auto mt-16 pb-5'>
             <div className='text-center'>
                 <h2 className='text-5xl font-bold'>What you will get</h2>
                 <p className='w-2/4 m-auto mt-4'>High-quality vectors are used to create each screen. In terms of functionality, It's simple and adaptable. With a clern and modern look.</p>
@@ -10,8 +10,8 @@ const ServiceProvide = () => {
             <div className='mt-5'>
                 <div className="grid grid-cols-3">
                     <div>
-                        <div className='text-center bg-[#3a4047] py-10'>
-                            <i style={{fontSize: 60}} className="fas fa-solid fa-earth-americas bg-white text-orange-700 p-2 rounded-lg"></i>
+                        <div className='text-center bg-[#1cf1b1b6] py-10'>
+                            <i style={{fontSize: 60}} className="fas fa-solid fa-earth-americas bg-white text-black p-2 rounded-lg"></i>
                             <h3 className='text-2xl mt-3 mb-3 font-bold'>Global Style guide</h3>
                             <p className='text-sm w-2/3 m-auto'>Consistent design with the text and color style.</p>
                         </div>
@@ -24,8 +24,8 @@ const ServiceProvide = () => {
                         </div>
                     </div>
                     <div>
-                        <div className='text-center bg-[#3a4047] py-10 '>
-                            <i style={{fontSize: 60}} className="fas fa-duotone fa-layer-group bg-white text-orange-700 p-2 rounded-lg"></i>
+                        <div className='text-center bg-[#1cf1b1b6] py-10 '>
+                            <i style={{fontSize: 60}} className="fas fa-duotone fa-layer-group bg-white text-black p-2 rounded-lg"></i>
                             <h3 className='text-2xl mt-3 mb-3 font-bold'>Organized Layer</h3>
                             <p className='text-sm w-2/3 m-auto'>Consistent design with the text and color style.</p>
                         </div>
@@ -39,8 +39,8 @@ const ServiceProvide = () => {
                         </div>
                     </div>
                     <div>
-                        <div className='text-center bg-[#3a4047] py-10 '>
-                            <i style={{fontSize: 60}} className="fas fa-regular fa-lightbulb bg-white text-orange-700 p-2 rounded-lg"></i>
+                        <div className='text-center bg-[#1cf1b1b6] py-10 '>
+                            <i style={{fontSize: 60}} className="fas fa-regular fa-lightbulb bg-white text-black p-2 rounded-lg"></i>
                             <i class=""></i>
                             <h3 className='text-2xl mt-3 mb-3 font-bold'>Light Mood</h3>
                             <p className='text-sm w-2/3 m-auto'>Consistent design with the text and color style.</p>
