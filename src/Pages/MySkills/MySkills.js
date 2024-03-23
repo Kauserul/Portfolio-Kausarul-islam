@@ -7,7 +7,7 @@ const MySkills = () => {
                 <h2 className='text-5xl'>My Skills</h2>
             </div>
             <div>
-                <div className="flex justify-center mt-5 gap-5">
+                <div className="flex justify-center mt-5 gap-2">
                     <div className='w-3/12'>
                         <div className='w-64 mx-auto text-center bg-[#3a4047] py-6 rounded-lg'>
                         <i class="fa-brands fa-html5" style={{ color: '#63E6BE', fontSize: '80px' }}></i>
@@ -33,7 +33,7 @@ const MySkills = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-center mt-5 gap-5">
+                <div className="flex justify-center mt-10 gap-5">
                     <div className='w-3/12'>
                         <div className='w-64 mx-auto text-center bg-[#3a4047] py-6 rounded-lg' >
                         <i class="fa-brands fa-node" style={{ color: '#63E6BE', fontSize: '80px' }}></i>
@@ -47,23 +47,23 @@ const MySkills = () => {
                         </div>
                     </div>
                     <div className='w-3/12'>
-                        <div className='text-center bg-[#3a4047] py-6 rounded-lg'>
-                            <i style={{fontSize: '60px'}} class="fa-brands fa-react"></i>
-                            <h2 className='text-4xl'>React</h2>
+                        <div className='w-64 mx-auto text-center bg-[#3a4047] py-6 rounded-lg'>
+                        <i class="fa-solid fa-folder-open" style={{color: '#63E6BE', fontSize: '80px'}}></i>
+                            <h2 className='text-4xl mt-3'>Firebase</h2>
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-center mt-5 gap-5">
+                <div className="flex justify-center mt-10 gap-5">
                     <div className='w-3/12'>
-                        <div className='text-center bg-[#3a4047] py-6 rounded-lg' >
-                            <i style={{fontSize: '60px'}} class="fa-brands fa-react"></i>
-                            <h2 className='text-4xl'>React</h2>
+                        <div className='w-64 mx-auto text-center bg-[#3a4047] py-6 rounded-lg' >
+                        <i class="fa-brands fa-github" style={{color: '#63E6BE', fontSize: '80px'}}></i>
+                            <h2 className='text-4xl mt-3'>GitHub</h2>
                         </div>
                     </div>
                     <div className='w-3/12'>
-                        <div className='text-center bg-[#3a4047] py-6 rounded-lg'>
-                            <i style={{fontSize: '60px'}} class="fa-brands fa-react"></i>
-                            <h2 className='text-4xl'>React</h2>
+                        <div className='w-64 mx-auto text-center bg-[#3a4047] py-6 rounded-lg'>
+                            <i style={{fontSize: '80px', color: '#63E6BE'}} class="fa-brands fa-vuejs"></i>
+                            <h2 className='text-4xl mt-3'>Vue JS</h2>
                         </div>
                     </div>
                 </div>
